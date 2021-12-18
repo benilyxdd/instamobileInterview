@@ -2,8 +2,23 @@
 
 exports[`Card matches snapshot 1`] = `
 <View>
-  <Text>
-    Card
+  <Image
+    source={
+      Object {
+        "uri": "https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg",
+      }
+    }
+    testID="image"
+  />
+  <Text
+    testID="title"
+  >
+    Oatmeal Cookies
+  </Text>
+  <Text
+    testID="category"
+  >
+    Cookies
   </Text>
 </View>
 `;

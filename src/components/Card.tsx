@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image, StyleSheet } from 'react-native';
 
 export interface Props {
 	imageUrl: string;
@@ -14,9 +14,13 @@ const Card: React.FunctionComponent<Props> = ({
 }) => {
 	return (
 		<View>
-			<Text>Card</Text>
+			<Image testID="image" source={{ uri: imageUrl }} />
+			<Text testID="title">{title}</Text>
+			<Text testID="category">{category}</Text>
 		</View>
 	);
 };
+
+const style = StyleSheet.create({});
 
 export default Card;

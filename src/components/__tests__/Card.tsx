@@ -23,9 +23,9 @@ describe('Card', () => {
 
 	it('renders title and category', () => {
 		const title = card.root.findByProps({ testID: 'title' }).props;
-		expect(title).toEqual('Oatmeal Cookies');
+		expect(title.children).toEqual('Oatmeal Cookies');
 
 		const category = card.root.findByProps({ testID: 'category' }).props;
-		expect(category).toEqual('Cookies');
+		expect(category.children).toEqual('Cookies');
 	});
 });
