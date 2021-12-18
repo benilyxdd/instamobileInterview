@@ -7,7 +7,7 @@ const testData: Omit<Props, 'size'> = {
 	imageUrl:
 		'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
 	title: 'Oatmeal Cookies',
-	category: 'Cookies',
+	subtitle: 'Cookies',
 };
 
 const card = create(<Card size="md" {...testData} />);
@@ -22,26 +22,26 @@ describe('Card', () => {
 			const image = card.root.findByProps({ testID: 'image' }).props;
 		});
 
-		it('renders title and category', () => {
+		it('renders title and subtitle', () => {
 			const title = card.root.findByProps({ testID: 'title' }).props;
 			expect(title.children).toEqual('Oatmeal Cookies');
 
-			const category = card.root.findByProps({
-				testID: 'category',
+			const subtitle = card.root.findByProps({
+				testID: 'subtitle',
 			}).props;
-			expect(category.children).toEqual('Cookies');
+			expect(subtitle.children).toEqual('Cookies');
 		});
 	});
 
 	describe('style', () => {
-		it('title and category is centered', () => {
+		it('title and subtitle is centered', () => {
 			const title = card.root.findByProps({ testID: 'title' }).props;
 			expect(title.style).toHaveProperty('textAlign', 'center');
 
-			const category = card.root.findByProps({
-				testID: 'category',
+			const subtitle = card.root.findByProps({
+				testID: 'subtitle',
 			}).props;
-			expect(category.style).toHaveProperty('textAlign', 'center');
+			expect(subtitle.style).toHaveProperty('textAlign', 'center');
 		});
 
 		it('has border', () => {

@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { View, Text, Image, StyleSheet, Dimensions } from 'react-native';
 
 type sizeType = 'sm' | 'md' | 'lg'; // small, medium, large -> string
 export interface Props {
 	imageUrl: string;
 	title: string;
-	category: string;
+	subtitle: string;
 	size: sizeType;
 }
 
@@ -14,41 +14,45 @@ const screen = Dimensions.get('window');
 const Card: React.FunctionComponent<Props> = ({
 	imageUrl,
 	title,
-	category,
+	subtitle,
 	size,
 }) => {
 	return (
 		<View
 			testID="card"
 			style={{
-				...style.cardContainer,
-				...style[size],
+				...styles.cardContainer,
+				...styles[size],
 			}}>
-			<View style={style.imageContainer}>
+			<View style={styles.imageContainer}>
 				<Image
 					testID="image"
-					style={style.image}
+					style={styles.image}
 					source={{ uri: imageUrl }}
 				/>
 			</View>
-			<Text testID="title" style={style.titleText}>
+			<Text testID="title" style={styles.titleText}>
 				{title}
 			</Text>
-			<Text testID="category" style={style.categoryText}>
-				{category}
+			<Text testID="subtitle" style={styles.categoryText}>
+				{subtitle}
 			</Text>
 		</View>
 	);
 };
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
 	sm: {
 		width: screen.width * 0.4,
-		height: screen.height * 0.25,
+		height: screen.height * 0.3,
+		marginHorizontal: screen.width * 0.05,
+		marginBottom: screen.height * 0.05,
 	},
 	md: {
 		width: screen.width * 0.9,
 		height: screen.height * 0.33,
+		marginHorizontal: screen.width * 0.05,
+		marginBottom: screen.height * 0.05,
 	},
 	lg: {
 		width: screen.width * 0.9,
@@ -70,8 +74,7 @@ const style = StyleSheet.create({
 	},
 	imageContainer: {
 		borderRadius: 20,
-		flex: 1,
-		height: '100%',
+		height: '75%',
 		width: '100%',
 		overflow: 'hidden',
 	},
