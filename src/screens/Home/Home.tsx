@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, FlatList } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 import Card from '../../components/Card';
 import { recipes, categories } from '../../../constants/mockData';
@@ -10,6 +11,7 @@ export interface Props {
 }
 
 const Home: React.FunctionComponent<Props> = ({ recipes, categories }) => {
+	const navigation = useNavigation();
 	return (
 		<View>
 			<FlatList
@@ -32,7 +34,17 @@ const Home: React.FunctionComponent<Props> = ({ recipes, categories }) => {
 							title={item.title}
 							imageUrl={item.photo_url}
 							subtitle={category}
-							onPress={() => console.log(item.title)}
+							onPress={() =>
+								navigation.navigate('details', {
+									title: item.title,
+									time: item.time,
+									description: item.description,
+									imageUrl: item.photo_url,
+									ingredients: item.ingredients,
+									categoryId: item.categoryId,
+									recipeId: item.recipeId,
+								})
+							}
 						/>
 					);
 				}}

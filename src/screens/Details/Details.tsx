@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Image, Text, View, StyleSheet } from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 
 import { categories } from '../../../constants/mockData';
 
@@ -36,7 +37,7 @@ const Details: React.FunctionComponent<Props> = ({
 	}, []);
 
 	return (
-		<View>
+		<ScrollView>
 			<View style={styles.imageContainer}>
 				<Image
 					testID="image"
@@ -61,7 +62,7 @@ const Details: React.FunctionComponent<Props> = ({
 			<Text testID="description" style={styles.description}>
 				{description}
 			</Text>
-		</View>
+		</ScrollView>
 	);
 };
 
