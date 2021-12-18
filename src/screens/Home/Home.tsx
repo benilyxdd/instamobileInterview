@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, FlatList } from 'react-native';
+import { View, FlatList, StyleSheet } from 'react-native';
 
 import Card from '../../components/Card';
 import { recipes, categories } from '../../../constants/mockData';
@@ -16,6 +16,7 @@ const Home: React.FunctionComponent<Props> = ({ recipes, categories }) => {
 				testID="flatlist"
 				data={recipes}
 				keyExtractor={item => item.recipeId.toString()}
+				numColumns={2}
 				renderItem={({ item }) => {
 					const category = categories.find(
 						category => category.id === item.categoryId,
@@ -38,5 +39,7 @@ const Home: React.FunctionComponent<Props> = ({ recipes, categories }) => {
 		</View>
 	);
 };
+
+const styles = StyleSheet.create({});
 
 export default Home;
