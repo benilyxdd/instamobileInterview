@@ -1,5 +1,12 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet, Dimensions } from 'react-native';
+import {
+	View,
+	Text,
+	Image,
+	StyleSheet,
+	Dimensions,
+	TouchableOpacity,
+} from 'react-native';
 
 type sizeType = 'sm' | 'md' | 'lg'; // small, medium, large -> string
 export interface Props {
@@ -7,6 +14,7 @@ export interface Props {
 	title: string;
 	subtitle: string;
 	size: sizeType;
+	onPress: () => void;
 }
 
 const screen = Dimensions.get('window');
@@ -16,9 +24,11 @@ const Card: React.FunctionComponent<Props> = ({
 	title,
 	subtitle,
 	size,
+	onPress,
 }) => {
 	return (
-		<View
+		<TouchableOpacity
+			onPress={onPress}
 			testID="card"
 			style={{
 				...styles.cardContainer,
@@ -37,7 +47,7 @@ const Card: React.FunctionComponent<Props> = ({
 			<Text testID="subtitle" style={styles.categoryText}>
 				{subtitle}
 			</Text>
-		</View>
+		</TouchableOpacity>
 	);
 };
 

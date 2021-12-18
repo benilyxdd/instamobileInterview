@@ -30,6 +30,7 @@ const Categories: React.FunctionComponent<Props> = ({
 							title={item.name}
 							imageUrl={item.photo_url}
 							subtitle={`${itemCount} recipes`}
+							onPress={() => console.log(item.name)}
 						/>
 					);
 				}}

@@ -32,6 +32,7 @@ const Home: React.FunctionComponent<Props> = ({ recipes, categories }) => {
 							title={item.title}
 							imageUrl={item.photo_url}
 							subtitle={category}
+							onPress={() => console.log(item.title)}
 						/>
 					);
 				}}

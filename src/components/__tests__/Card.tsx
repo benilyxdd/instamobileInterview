@@ -3,11 +3,16 @@ import { create } from 'react-test-renderer';
 
 import Card, { Props } from '../Card';
 
+const navigation = {
+	navigate: jest.fn(),
+};
+
 const testData: Omit<Props, 'size'> = {
 	imageUrl:
 		'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
 	title: 'Oatmeal Cookies',
 	subtitle: 'Cookies',
+	onPress: () => console.log('clicked'),
 };
 
 const card = create(<Card size="md" {...testData} />);
@@ -30,6 +35,13 @@ describe('Card', () => {
 				testID: 'subtitle',
 			}).props;
 			expect(subtitle.children).toEqual('Cookies');
+		});
+
+		it('navigate when click', () => {
+			const view = card.root.findByProps({ testID: 'card' }).props;
+			view.onPress();
+
+			expect(navigation.navigate).toBeCalled();
 		});
 	});
 
