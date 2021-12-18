@@ -46,13 +46,13 @@ const styles = StyleSheet.create({
 		width: screen.width * 0.4,
 		height: screen.height * 0.3,
 		marginHorizontal: screen.width * 0.05,
-		marginBottom: screen.height * 0.05,
+		marginVertical: screen.height * 0.025,
 	},
 	md: {
 		width: screen.width * 0.9,
 		height: screen.height * 0.33,
 		marginHorizontal: screen.width * 0.05,
-		marginBottom: screen.height * 0.05,
+		marginVertical: screen.height * 0.025,
 	},
 	lg: {
 		width: screen.width * 0.9,
