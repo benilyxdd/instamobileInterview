@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, FlatList, StyleSheet } from 'react-native';
+import { View, FlatList } from 'react-native';
 
 import Card from '../../components/Card';
 import { recipes, categories } from '../../../constants/mockData';
@@ -31,7 +31,7 @@ const Home: React.FunctionComponent<Props> = ({ recipes, categories }) => {
 							size="sm"
 							title={item.title}
 							imageUrl={item.photo_url}
-							category={category}
+							subtitle={category}
 						/>
 					);
 				}}
@@ -39,7 +39,5 @@ const Home: React.FunctionComponent<Props> = ({ recipes, categories }) => {
 		</View>
 	);
 };
-
-const styles = StyleSheet.create({});
 
 export default Home;

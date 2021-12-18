@@ -8,6 +8,10 @@ const screen = create(<Home recipes={recipes} categories={categories} />);
 
 describe('Home Screen', () => {
 	describe('components', () => {
+		it('snapshot', () => {
+			expect(screen).toMatchSnapshot();
+		});
+
 		it('renders a flatlist', () => {
 			const flatlist = screen.root.findByProps({ testID: 'flatlist' });
 		});
