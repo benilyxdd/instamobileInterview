@@ -699,14 +699,26 @@ exports[`Home Screen components snapshot 1`] = `
           }
         >
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -764,14 +776,26 @@ exports[`Home Screen components snapshot 1`] = `
             </Text>
           </View>
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -842,14 +866,26 @@ exports[`Home Screen components snapshot 1`] = `
           }
         >
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -907,14 +943,26 @@ exports[`Home Screen components snapshot 1`] = `
             </Text>
           </View>
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -985,14 +1033,26 @@ exports[`Home Screen components snapshot 1`] = `
           }
         >
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -1050,14 +1110,26 @@ exports[`Home Screen components snapshot 1`] = `
             </Text>
           </View>
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -1128,14 +1200,26 @@ exports[`Home Screen components snapshot 1`] = `
           }
         >
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -1193,14 +1277,26 @@ exports[`Home Screen components snapshot 1`] = `
             </Text>
           </View>
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -1271,14 +1367,26 @@ exports[`Home Screen components snapshot 1`] = `
           }
         >
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -1336,14 +1444,26 @@ exports[`Home Screen components snapshot 1`] = `
             </Text>
           </View>
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
@@ -1414,14 +1534,26 @@ exports[`Home Screen components snapshot 1`] = `
           }
         >
           <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Object {
                 "borderColor": "gray",
                 "borderRadius": 20,
                 "borderWidth": 1,
                 "height": 400.2,
-                "marginBottom": 66.7,
                 "marginHorizontal": 37.5,
+                "marginVertical": 33.35,
+                "opacity": 1,
                 "overflow": "hidden",
                 "width": 300,
               }
