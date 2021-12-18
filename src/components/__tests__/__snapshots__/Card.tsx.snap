@@ -1,21 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Card matches snapshot 1`] = `
-<View>
-  <Image
-    source={
+exports[`Card components snapshot 1`] = `
+<View
+  style={
+    Object {
+      "borderColor": "gray",
+      "borderRadius": 20,
+      "borderWidth": 1,
+      "height": 440.22,
+      "overflow": "hidden",
+      "width": 675,
+    }
+  }
+  testID="card"
+>
+  <View
+    style={
       Object {
-        "uri": "https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg",
+        "borderRadius": 20,
+        "flex": 1,
+        "height": "100%",
+        "overflow": "hidden",
+        "width": "100%",
       }
     }
-    testID="image"
-  />
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg",
+        }
+      }
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+      testID="image"
+    />
+  </View>
   <Text
+    style={
+      Object {
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "paddingBottom": "2.5%",
+        "paddingTop": "1%",
+        "textAlign": "center",
+      }
+    }
     testID="title"
   >
     Oatmeal Cookies
   </Text>
   <Text
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
     testID="category"
   >
     Cookies
