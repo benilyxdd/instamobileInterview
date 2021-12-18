@@ -1,14 +1,9 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text } from 'react-native';
+
+import Navigator from './src/navigation/Navigator';
 
 const App = () => {
-	return (
-		<SafeAreaView>
-			<Text>hello</Text>
-		</SafeAreaView>
-	);
+	return <Navigator />;
 };
-
-const styles = StyleSheet.create({});
 
 export default App;
