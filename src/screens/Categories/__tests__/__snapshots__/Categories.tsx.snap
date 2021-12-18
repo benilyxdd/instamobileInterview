@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Categories Screen Components snapshot 1`] = `
+<View>
+  <Text>
+    Categories Screen
+  </Text>
+</View>
+`;

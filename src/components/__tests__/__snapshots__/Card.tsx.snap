@@ -18,8 +18,7 @@ exports[`Card components snapshot 1`] = `
     style={
       Object {
         "borderRadius": 20,
-        "flex": 1,
-        "height": "100%",
+        "height": "70%",
         "overflow": "hidden",
         "width": "100%",
       }
